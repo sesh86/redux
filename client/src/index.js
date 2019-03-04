@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Users from './components/Users';
 import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux'
 import rootReducer from './reducers/rootReducer'
@@ -15,7 +16,7 @@ const store = createStore(rootReducer);
 
 ReactDOM.render(
 <Provider store={store}>
-<App name="RP" />
+<Users/>
 </Provider>
 , document.getElementById('root'));
 

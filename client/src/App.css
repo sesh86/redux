@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+
+
+.btn-darkblue {background-color: #336699!important;color: white!important;}
+.btn-darkblue:hover{background-color:white  ;color:#336699;border:1px solid #336699}
+.hand{cursor:pointer}
